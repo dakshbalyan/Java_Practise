@@ -1,0 +1,11 @@
+1. Write a program to handle a string of any length. Check whether any combination of the characters present inside the
+string is a Palindrome or not.
+
+2. Write a perfectly immutable class which contains fields of classes Integer and StringBuilder only.
+
+3. Write a class to accept refugees from all over the world. These refugees are to be read from a file using I/O streams.
+Please throw a NotFoundException for Pakistani refugees.
+
+4. Write a Program to accept two String arrays and create an array which contains strings that appear in either or both arrays.
+
+5. Use Console to accept Model Object Inputs. Each Line represents a single object.

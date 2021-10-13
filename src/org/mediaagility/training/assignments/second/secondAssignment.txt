@@ -1,0 +1,36 @@
+1.  	abstract class BasicArithmetic {
+
+		public float pi = 2.14f;
+
+		public int add(int a, int b){
+			return a+b;
+		}
+
+		public int subtract(int a, int b){
+			return a-b;
+		}
+
+		public int multiply(int a, int b){
+			return a*b;
+		}
+
+		public int divide(int a, int b){
+			return a/b;
+		}
+    	}
+
+Extend the functionality of this class. Categorise subclasses on the basis of some science or maths formulas or concepts.
+
+Each subclass needs to have some overloaded constructors.
+
+Prepare a main class which takes the parameters as Command Line Arguments and pass them for operations in these methods.
+
+2. Replicate the above given class into an interface. Extend this interface to sub interface and implement them.
+
+variable needs to be part of the interface.
+
+Prepare a main class which takes the parameters as Command Line Arguments and pass them for operations in these methods.
+
+3. Declare a String and reverse it without using StringBuffer.
+
+4. Display abstraction using Factory method.

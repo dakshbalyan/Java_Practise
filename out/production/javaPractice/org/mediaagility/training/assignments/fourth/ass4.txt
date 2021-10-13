@@ -1,0 +1,9 @@
+1. A folder contains 25 files, all the files contain Comma Separated Values for an object. Write a program to read all the files at once from the folder. Write the data to a single file. There should not be any inconsistencies in the data. Use 5 threads at a time to write.
+
+2. A file contains CSV objects of Employees of a Company. Write a program to list down all the Employees of the department/departments entered as an input from Console.
+
+3. Find a Collection of Distinct Objects from a list of Integers without using Stream API.
+
+4. Use an Enum type to send inputs to a Factory method and return the object based on some value. Value here should be of Integer type.
+
+5. Write an annotation which only runs at Runtime and not Compile Time, can only be applied to methods. Read all the methods of that class, detect the method containing annotation and execute the method.
