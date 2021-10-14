@@ -9,16 +9,16 @@ public class Greeter {
     customised according to your need by implementing the interface !!!
      */
 
-    private void greet(Greeting greeting){
-//        System.out.println("hello world !");
-        greeting.perform();
-    }
-
     public static void main(String[] args) {
         Greeter greeter = new Greeter();
         Greeting helloWorldGreeting = new HelloWorldGreeting();
         Greeting introductionGreeting = new IntroducionGreeting("daksh", 23, "male");
         greeter.greet(helloWorldGreeting);
         greeter.greet(introductionGreeting);
+    }
+
+    private void greet(Greeting greeting) {
+//        System.out.println("hello world !");
+        greeting.perform();
     }
 }
