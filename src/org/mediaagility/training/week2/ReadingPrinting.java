@@ -5,6 +5,8 @@ import java.io.*;
 public class ReadingPrinting {
     public static void main(String[] args) throws IOException {
 
+
+
         try(FileWriter fw = new FileWriter("myfile.txt", true);
             BufferedWriter bw = new BufferedWriter(fw);
             PrintWriter pw = new PrintWriter(bw))
