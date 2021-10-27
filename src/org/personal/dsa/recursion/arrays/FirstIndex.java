@@ -1,4 +1,4 @@
-package org.personal.dsa.recursion;
+package org.personal.dsa.recursion.arrays;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package org.personal.dsa.recursion;
+package org.personal.dsa.recursion.arrays;
 
 public class IsArraySorted {
     public static void main(String[] args) {

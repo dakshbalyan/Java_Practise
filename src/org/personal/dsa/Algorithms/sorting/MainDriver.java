@@ -20,7 +20,7 @@ public class MainDriver {
 //        Quicksort sort = new Quicksort();
 //        sort.quickSort(arr, 0 , arr.length - 1);
 
-        sorting.MergeSort sort = new sorting.MergeSort();
+        MergeSort sort = new MergeSort();
         sort.mergeSort(arr, 0, arr.length - 1);
 
         for (int x : arr)
