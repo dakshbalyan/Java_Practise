@@ -6,7 +6,8 @@ public class ReadingPrinting {
     public static void main(String[] args) throws IOException {
 
 
-
+        // The second parameter true tells the filewriter to append to the existing
+        // file and BufferedWriter makes the task of writing fast
         try(FileWriter fw = new FileWriter("myfile.txt", true);
             BufferedWriter bw = new BufferedWriter(fw);
             PrintWriter pw = new PrintWriter(bw))
