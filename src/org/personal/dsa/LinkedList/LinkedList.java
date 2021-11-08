@@ -1,4 +1,4 @@
-package org.personal.leetcode.topInterviewQuesEasy;
+package org.personal.dsa.LinkedList;
 
 public class LinkedList {
     public static void main(String[] args) {
